@@ -1,13 +1,14 @@
 # DHKD
 
 
+#Abstract
+
+
+#Results
 
 
 ## Citation
-
 If you use our code, please consider citing the paper:
-
-
 ```
 @article{tong2023two,
   title={Two-stage reverse knowledge distillation incorporated and Self-Supervised Masking strategy for industrial anomaly detection},
@@ -18,8 +19,6 @@ If you use our code, please consider citing the paper:
   year={2023},
   publisher={Elsevier}
 }
-
-
 @article{tong2024enhanced,
   title={Enhanced multi-scale features mutual mapping fusion based on reverse knowledge distillation for industrial anomaly detection and localization},
   author={Tong, Guoxiang and Li, Quanquan and Song, Yan},
