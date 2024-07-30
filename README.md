@@ -1,7 +1,5 @@
 # DHKD
 
-code come soon
-
 
 
 
@@ -28,6 +26,9 @@ code come soon
 | Screw      | 100   | 93.9  | 96.3      | 98.5  | 91.9  | 97.6    | 88.2 | 97.0 | 98.8 |
 | Toothbrush | 100   | 100   | 98.6      | 98.8  | 99.7  | 91.9    | 87.8 | 99.5 | 99.6 |
 | Average    | 83.9  | 98.0  | 94.7      | 97.5  | 98.3  | 98.7    | 95.4 | 98.2 | 99.3 |
+
+
+
 
 
 | category   | mkd  | Spade | Padim | riad | Cutpaste | Ikd  | Rkd  | Ours |
