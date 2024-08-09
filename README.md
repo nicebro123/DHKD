@@ -5,6 +5,12 @@
 
 ## Abstract
 
+Industrial anomaly detection methods based on knowledge distillation have made significant progress. However, their architecture remains constrained by pre-trained models, and the issue of limited generalization performance persists. To address these challenges, this paper proposes a Denoising Heterogeneous Knowledge Distillation (DHKD) algorithm for anomaly detection. Specifically, the teacher network employs invertible regularized flows for precise probability density modeling, while the student network uses a conventional feedforward neural network, which cannot fully replicate the teacher model's representation of anomalous images. This design significantly enhances the representation differences between the teacher and student networks, while also freeing the knowledge distillation model from the heavy reliance on pre-trained models.DHKD transforms the teacher-student network from a conventional encoder-decoder architecture into a generative architecture. To improve the student network's reconstruction capability, Gaussian noise is added at the feature level to simulate anomalies. The student network utilizes a dual-domain reconstruction module to filter out anomalous information, thereby enhancing the model's response to normal information and promoting high-quality reconstruction. Additionally, to enhance the student model's sensitivity to the overall context of images and its understanding of spatial relationships, a teacher-student representation affinity loss is employed. This not only improves the interaction and connection between different regions of the image but also enables the model to effectively integrate local features with global contextual information. On the MVTec dataset, our model achieved state-of-the-art performance with an AUROC of 99.3 for detection and 98.6 for localization. Moreover, visual results from multiple real-world datasets demonstrate that the proposed model has excellent generalization capabilities.
+
+
+
+
+
 
 ## Results
 
